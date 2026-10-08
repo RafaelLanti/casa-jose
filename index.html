@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casa José · Montoro</title>
+<meta name="description" content="Casa José · Taberna y restaurante en el casco histórico de Montoro, Córdoba.">
+<style>
+:root{--bg:#0d0d0c;--paper:#f5f0e7;--gold:#c8a66a;--muted:#bdb6a8;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--paper);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+nav{position:fixed;z-index:10;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:rgba(13,13,12,.78);backdrop-filter:blur(10px)}
+.logo{font-family:Georgia,serif;font-size:24px;letter-spacing:2px}.navlinks a{color:#fff;text-decoration:none;margin-left:25px;font-size:14px}
+.hero{min-height:92vh;display:flex;align-items:end;padding:120px 7% 70px;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.25)),url("https://s1.abcstatics.com/abc/sevilla/media/gurmesevilla/2017/06/miradormontoro2peq.jpg") center/cover}
+.hero h1{font:normal clamp(52px,9vw,110px)/.9 Georgia,serif;margin:0 0 20px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:4px;font-size:13px}.hero p{max-width:650px;color:#eee;font-size:19px}
+.btn{display:inline-block;background:var(--gold);color:#17130d;padding:13px 22px;text-decoration:none;border-radius:2px;font-weight:700;margin-top:12px}.btn.alt{background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff;margin-left:8px}
+section{padding:90px 7%}.intro{background:var(--paper);color:#181713}.grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.serif{font:normal clamp(34px,5vw,60px)/1.05 Georgia,serif}.muted{color:#6e675b}
+.card{background:#171715;border:1px solid #292925;padding:28px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.cards img{width:100%;height:220px;object-fit:cover}.cards h3{font:normal 26px Georgia,serif}.menu{background:#151512}.menu-list{display:grid;grid-template-columns:1fr 1fr;gap:0 50px}.item{display:flex;justify-content:space-between;border-bottom:1px solid #34342f;padding:14px 0;gap:20px}.price{color:var(--gold);white-space:nowrap}
+.contact{background:var(--paper);color:#171713}.contact a{color:#171713}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.map{min-height:320px;border:0;width:100%}
+footer{padding:30px 7%;color:#8f897d;font-size:13px;border-top:1px solid #252520}
+@media(max-width:800px){.navlinks{display:none}.grid,.contactgrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.menu-list{grid-template-columns:1fr}.hero{min-height:80vh}.btn.alt{margin-left:0}}
+</style>
+</head>
+<body>
+<nav><div class="logo">CASA JOSÉ</div><div class="navlinks"><a href="#historia">Historia</a><a href="#carta">Carta</a><a href="#contacto">Contacto</a></div></nav>
+
+<header class="hero">
+<div>
+<div class="eyebrow">Taberna · Restaurante · Montoro</div>
+<h1>El sabor de<br>Montoro.</h1>
+<p>Cocina tradicional con un toque renovado, en pleno casco histórico y con vistas al meandro del Guadalquivir.</p>
+<a class="btn" href="tel:+34957162232">Reservar mesa</a>
+<a class="btn alt" href="#carta">Ver carta</a>
+</div>
+</header>
+
+<section class="intro" id="historia">
+<div class="grid">
+<div><div class="eyebrow">Desde 2013</div><h2 class="serif">Una mesa con vistas y sabor cordobés.</h2></div>
+<div><p>Casa José combina gastronomía local, producto de calidad y una ubicación privilegiada en la Plaza de España de Montoro. La propuesta reúne tradición y cocina actual, además de la cervecería La Botica.</p><p class="muted">Plaza España, 13 · 14600 Montoro, Córdoba</p></div>
+</div>
+</section>
+
+<section>
+<div class="cards">
+<div class="card"><img src="https://weur-cdn.carta.menu/storage/media/company_gallery/65023856/conversions/contribution_gallery.jpg" alt="Plato de Casa José"><h3>Producto local</h3><p class="muted">Sabores de Córdoba reinterpretados con una presentación cuidada.</p></div>
+<div class="card"><img src="https://s1.abcstatics.com/abc/sevilla/media/gurmesevilla/2017/06/miradormontoro2peq.jpg" alt="Vistas de Montoro"><h3>Vistas al Guadalquivir</h3><p class="muted">Un entorno especial para comer, cenar o disfrutar de unas tapas.</p></div>
+<div class="card"><div style="height:220px;background:linear-gradient(135deg,#3a3122,#8b6b3d);display:grid;place-items:center;font:36px Georgia,serif">La Botica</div><h3>Un espacio con encanto</h3><p class="muted">Cervezas, tapas y productos de la zona en un ambiente diferente.</p></div>
+</div>
+</section>
+
+<section class="menu" id="carta">
+<div class="eyebrow">Una selección</div><h2 class="serif">De nuestra carta</h2>
+<div class="menu-list">
+<div>
+<div class="item"><span>Salmorejo cordobés</span><span class="price">10,80 €</span></div>
+<div class="item"><span>Berenjenas con dúo de miel</span><span class="price">10,90 €</span></div>
+<div class="item"><span>Flamenquín de presa ibérica</span><span class="price">12,00 €</span></div>
+<div class="item"><span>Lechón ibérico</span><span class="price">17,90 €</span></div>
+</div>
+<div>
+<div class="item"><span>Jamón ibérico de Los Pedroches</span><span class="price">13–23 €</span></div>
+<div class="item"><span>Pulpo asado</span><span class="price">22,90 €</span></div>
+<div class="item"><span>Presa ibérica</span><span class="price">24,90 €</span></div>
+<div class="item"><span>Tarta de queso</span><span class="price">6,90 €</span></div>
+</div>
+</div>
+<p class="muted" style="margin-top:25px">Demo comercial · precios y contenidos deberán validarse con el establecimiento antes de publicar.</p>
+</section>
+
+<section class="contact" id="contacto">
+<div class="contactgrid">
+<div><div class="eyebrow">Visítanos</div><h2 class="serif">Plaza España, 13</h2><p>14600 Montoro, Córdoba</p><p><a href="tel:+34957162232">957 16 22 32</a><br><a href="mailto:casajosetabernamontoro@gmail.com">casajosetabernamontoro@gmail.com</a></p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Plaza+España+13+Montoro+Córdoba" target="_blank">Cómo llegar</a></div>
+<div><iframe class="map" src="https://www.google.com/maps?q=Plaza+España+13+Montoro+Córdoba&output=embed" loading="lazy"></iframe></div>
+</div>
+</section>
+
+<footer>Demo de propuesta web para Casa José · Preparada para presentación comercial. Las fotografías mostradas proceden de fuentes públicas y deben sustituirse por material autorizado del establecimiento antes de una publicación definitiva.</footer>
+</body>
+</html>
